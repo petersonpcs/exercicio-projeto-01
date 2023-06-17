@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, input, select {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Righteous', cursive;
+    font-weight: normal;
+}
+
+header {
+    padding: 16px;
+    background-color: crimson;
+    color: azure;
+}
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: azure;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 42px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.movie-theater {
+    margin-right: 32px;
+    width: 580px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#newsletter .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form select,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+sectionh3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: crimson;
+    color: azure;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(199, 53, 82);
+}
+
+input:focus, select:focus {
+    outline-color: crimson;
+}
+
+footer {
+    background-color: crimson;
+    color:azure;
+    padding: 16px 0;
+}

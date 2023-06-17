@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemania - Sua dose de informação do cinema</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Cinemania</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre o site</a>
+                    </li>
+                    <li>
+                        <a href="#newsletter">Assine a lista vip</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img class="movie-theater" src="./images/inside.png" alt="Por dentro de um cinema">
+            <div>
+                <h2>Sobre o site</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nesciunt, esse natus delectus veritatis iure repudiandae adipisci quisquam repellendus saepe, laudantium tenetur iste fugit deserunt! Recusandae provident veritatis inventore expedita.
+                </p> </br>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam voluptates odio, eos assumenda excepturi commodi doloribus nobis eligendi molestias deserunt laborum dignissimos tenetur nesciunt? Ipsam ad explicabo qui recusandae dolor.
+                </p> </br> </br>
+                <ul class="brands-list">
+                    <li> <img src="./images/cinemark.png"> </li>
+                    <li> <img src="./images/marvel.png"> </li>
+                    <li> <img src="./images/universal.png"> </li>
+                    <li> <img src="./images/walt-disney-studios-media-png-logo-9.png"> </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <h2>Lista vip</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3> Assine a nossa lista vip</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu melhor e-mail" required />
+                        <input type="tel" id="telefone" name="telefone" placeholder="Seu número de celular (12-12345-1234)" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" required>
+                            <select placeholder="Onde nos conheceu?" required> 
+                            <option value="where">Por onde nos conheceu? (selecione)</option>
+                            <option value="insta">Instagram</option>
+                            <option value="fb">Facebook</option>
+                            <option value="wpp">Whatsapp</option>
+                            <option value="yt">Youtube</option>
+                            <option value="another">Outros</option>
+                        </select> 
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+
+                <div>
+                    <h3>Nos acompanhe</h3>
+                </br>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#instagram" title="Siga-nos no instagram"> </a>
+                            <img src="./images/instagram.png" alt="Logo do instagram">
+                        </li>
+                        <li>
+                            <a href="#facebook" title="Siga-nos no Facebook"> </a>
+                            <img src="./images/facebook.png" alt="Logo do Facebook">
+                        </li>
+                        <li>
+                            <a href="#youtube" title="Visite nosso canal no Youtube"> </a>
+                            <img src="./images/youtube.png" alt="Logo do Youtube">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Acompanhe nossos outros sites</h3>
+                    <li>
+                        
+                        <a href="https://gamesshop-six.vercel.app">Loja GameStop </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Cinemania - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
